@@ -250,12 +250,17 @@ pp person1
 
 This syntactic sugar makes it _feel_ like we're doing variable assignments to keys within the `Hash`, but under the hood it's identical to `.store(:key, "value")`.
 
-In the graded code block below, given the `Array` containing a `user`'s name, age, and occupation, store the values in a `Hash`, print the `Hash`, and print the `:occupation`. For example, given a `user = ["Alice", "24", "Developer"]`, the output of your program should be:
+In the graded code block below, given the `Array` containing a `user`'s name, age, and occupation:
 
-```
-{ :name => "Alice", :age => 24, :occupation => "Developer" }
-"Developer"
-```
+- store the values in a `Hash`
+- print the `Hash`
+- and print the `:occupation`
+
+For example, given a `user = ["Alice", "24", "Developer"]`, the output of your program should be:
+
+
+    { :name => "Alice", :age => 24, :occupation => "Developer" }
+    "Developer"
 
 Hint: make sure the value of the `:age` key is an `Integer`.
 
